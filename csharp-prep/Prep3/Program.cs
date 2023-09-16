@@ -13,6 +13,7 @@ class Program
         {
             Console.WriteLine("What is your guess? ");
             usernumber = int.Parse(Console.ReadLine());
+            
             if (number > usernumber)
             {
                 Console.WriteLine("Higher");

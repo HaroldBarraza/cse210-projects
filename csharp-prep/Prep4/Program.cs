@@ -25,6 +25,7 @@ class Program
         {
             sum += num;
         }
+        
         Console.WriteLine($"The sum is {sum}");
 
         float media = ((float)sum) / number.Count;
