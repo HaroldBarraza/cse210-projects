@@ -9,7 +9,7 @@ public class Activity
         _nameActiviti = name;
     }
 
-    public virtual void Star()
+    public virtual void Start()
     {
         Console.WriteLine($"starting activity {_nameActiviti}");
         Console.WriteLine("get ready....");

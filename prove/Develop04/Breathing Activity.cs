@@ -5,7 +5,7 @@ public class BreathingActivity : Activity
         _description = "This activity will help you relax by walking your through breathing in and out slowly. Clear your mind and focus on your breathing";
         _time = time;
     }
-    public override void Star()
+    public override void Start()
     {
         base.Star();
         Console.WriteLine(_description);

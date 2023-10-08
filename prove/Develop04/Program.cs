@@ -45,7 +45,7 @@ class Program
     }
     static void Execute(Activity activity)
     {
-        activity.Star();
+        activity.Start();
         activity.End();
     }
 }
