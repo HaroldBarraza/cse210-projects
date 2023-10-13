@@ -1,0 +1,3 @@
+SimpleGoal:Run a Marathon
+EternalGoal:Read Scriptures
+ChecklistGoal:Attend the Temple:10:1
