@@ -5,10 +5,10 @@ class Program
 {
     static void Main()
     {
-        Product product1 = new Product("Product 1", "P1", 20, 2);
-        Product product2 = new Product("Product 2", "P2", 30, 1);
+        Product product1 = new Product("Sugar", "P1", 20, 1);
+        Product product2 = new Product("Rice", "P2", 30, 2);
 
-        Customer Customer = new Customer("John Doe", new Address("123 Main St", "Cityville", "CA", "US"));
+        Customer Customer = new Customer("John Doe", new Address("430 Main St", "Cityville", "CA", "US"));
 
         Order Order = new Order(new List<Product> { product1, product2 }, Customer);
 
